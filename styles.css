@@ -196,7 +196,7 @@ address{font-style:normal;font-family:var(--serif);font-size:1.6rem;color:var(--
 .contact__item{display:flex;flex-direction:column;gap:6px;padding:36px 32px;border:1px solid var(--line);border-radius:var(--r);text-decoration:none;transition:all .4s var(--ease);background:#fff}
 .contact__item:hover{border-color:var(--plum);transform:translateY(-4px);box-shadow:var(--shadow)}
 .contact__k{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:500}
-.contact__v{font-family:var(--serif);font-size:1.45rem;color:var(--ink);word-break:break-word}
+.contact__v{font-family:var(--serif);font-size:1.45rem;color:var(--ink);word-break:break-word;overflow-wrap:anywhere}
 .policies{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:40px;font-size:.88rem;color:var(--muted)}
 .policies p{margin:0}
 .policies strong{color:var(--ink);font-weight:500}
